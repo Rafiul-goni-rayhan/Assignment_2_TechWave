@@ -1,0 +1,7 @@
+echo "# Assignment_2_TechWave" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rafiul-goni-rayhan/Assignment_2_TechWave.git
+git push -u origin main
