@@ -8,7 +8,7 @@
 }
 body {
   /* border: 2px solid red; */
-  background-color: #230e3d;
+  background-color: #1A0B2E;
   max-width: 1600px;
   margin: 0 auto;
   margin-top: 30px;
@@ -841,6 +841,9 @@ position: absolute;
 .footer-div {
     min-height: 400px;
   }
+  .footer-bg>img{
+    height: 250px;
+  } 
   
  
 
