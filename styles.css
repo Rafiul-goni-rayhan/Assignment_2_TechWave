@@ -7,7 +7,7 @@
   font-family: "Inter", sans-serif;
 }
 body {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: #230e3d;
   max-width: 1600px;
   margin: 0 auto;
@@ -39,7 +39,7 @@ nav {
   font-weight: 700;
 }
 .tecwave > span {
-  /* color :red; */
+  
   background: linear-gradient(3deg, yellow, rgb(194, 25, 174), blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -70,7 +70,6 @@ nav {
   overflow: hidden;
   background-color: #1a0b2e; 
 }
-
 .banner-img {
   grid-area: 1/1; 
   width: 100%;
@@ -78,8 +77,6 @@ nav {
   display: block;
   z-index: 1;
 }
-
-
 .hero-overlay {
   grid-area: 1/1; 
   z-index: 2;
@@ -90,8 +87,6 @@ nav {
   width: 100%;
   padding: 40px 20px;
 }
-
-
 .image-group {
   position: relative;
   display: flex;
@@ -99,7 +94,6 @@ nav {
   align-items: center;
   margin-bottom: 30px; 
 }
-
 .circle-img {
   width: 350px 350px;  
   height: auto;
@@ -119,14 +113,11 @@ nav {
 .mic-img {
   position: absolute;
   width: 116px 175px; 
-
 }
-
 .mic-img {
   transition: transform 0.6s ease-in-out; 
   cursor: pointer;
 }
-
 
 .mic-img:hover {
   transform: rotate(360deg); 
@@ -202,18 +193,7 @@ nav {
   color: rgb(255, 255, 255);
    border: none;
 }
-/* .spotify, .subscrive-bg {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 28px;
-  border-radius: 40px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  border: none;
-  transition: 0.3s;
-} */
+
 .spotify,
 .subscrive-bg {
   width: 60%;
@@ -293,7 +273,7 @@ nav {
     display: grid;
     margin: 0 auto;
     max-width: 1200px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3, 225px);
     gap: 30px;
@@ -356,7 +336,7 @@ nav {
 .feature-episode {
     max-width: 1200px;
     margin: 0 auto 80px auto;
-    border: 2px solid rgb(206, 20, 110);
+    /* border: 2px solid rgb(206, 20, 110); */
    
 }
 
@@ -400,7 +380,7 @@ nav {
     top: 35%; 
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #e71379;
+    color: #eb0a0a;
     font-size: 60px;
     z-index: 10;
     cursor: pointer;
@@ -411,79 +391,37 @@ nav {
     background: rgba(0, 0, 0, 0.2);
 }
 
-/* হোভার ইফেক্ট */
+
 .vedio:hover .fa-play {
     transform: translate(-50%, -50%) scale(1.1);
     background: rgba(0, 0, 0, 0.4);
 }
 
-/* ৬. মোবাইল রেসপনসিভ (৫৭৬ পিক্সেল বা তার নিচে) */
+
 @media screen and (max-width: 576px) {
     .three-vedio {
-        flex-direction: column; /* নিচে নিচে আসবে */
+        flex-direction: column; 
         align-items: center;
         padding: 15px;
     }
 
     .vedio {
-        max-width: 100%; /* মোবাইলে পুরো চওড়া হবে */
+        max-width: 100%; 
         width: 100%;
         padding: 15px;
     }
 
     .fa-play {
-        font-size: 45px; /* মোবাইলে বাটন একটু ছোট */
+        font-size: 45px; 
         top: 30%;
     }
 }
 
-/* হোভার ইফেক্ট */
+
 .vedio:hover .fa-play {
     transform: translate(-50%, -50%) scale(1.1);
     color: #ff1a8c;
 }
-/* .feature-episode{
-    max-width: 1200px;
-    margin: 0 auto;
- align-items: start;
- margin-bottom: 80px;
- border: 2px solid rgb(206, 20, 110);
-}
-.feature-episode h1{
-    padding: 30px;
-    text-align: center;
-}
-.three-vedio{
-    display: flex;
-    justify-content: center;gap: 30px;
-    max-width: 1200px;
-
-    
-}
-.vedio{
-    cursor: pointer;
-    border-radius: 40px;
-    background-color: #1a0b2e;
-    padding: 30px;
-    position: relative;
-}
-.fa-play{
-
-position: absolute;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #e71379;
-    font-size: 90px;
-    z-index: 10;
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-    border:9px solid #4c2087;
-    border-radius: 40px;
-  
-} */
-
 
 /* meet mthe host section  */
 
@@ -885,6 +823,7 @@ position: absolute;
     transition: opacity 0.3s ease;
     border:9px solid #4c2087;
     border-radius: 40px;
+    background-color: #4c2087;
 }
 
 /* footer */
@@ -892,11 +831,7 @@ position: absolute;
 .child-div{
   transform: translate(-40%, -100%);
 }
-/* .child-div{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-} */
+
 .btn-grid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -922,7 +857,7 @@ position: absolute;
 
  
 .banner {
-  border: 2px solid aqua;
+  /* border: 2px solid aqua; */
   border-radius: 3px;
   
 }
