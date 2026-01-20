@@ -71,17 +71,9 @@ nav {
   overflow: hidden;
   background-color: #1a0b2e; 
 }
-.banner-img {
-  grid-area: 1/1; 
-  width: 100%;
-  height: 466px;
-  display: block;
-  z-index: 1;
-  padding-bottom: 50px;
-  /* margin-bottom: 30px; */
-}
+
 .hero-overlay {
-   transform: translate(0% , 6%);
+   transform: translate(0% , 0%);
   grid-area: 1/1; 
   z-index: 2;
   display: flex;
@@ -108,10 +100,18 @@ nav {
  height: auto;
 }
 
+
 .banner-img {
+  grid-area: 1/1; 
   width: 100%;
   height: auto;
-  padding-top: 150px;
+  display: block;
+  z-index: 1;
+  padding-bottom: 50px; 
+  width: 100%;
+  height: auto;
+  padding-top: 0px;
+  /* margin-bottom: 30px; */
 }
 
 .mic-img {
@@ -658,7 +658,7 @@ width: 100%;
   width: 100%;
   height: 100%;
   display: block;
-  margin: 0 auto; padding-top: 50px;
+  margin: 0 auto; padding-top: 25px;
 }
   .fa-bars {
     display: block;
