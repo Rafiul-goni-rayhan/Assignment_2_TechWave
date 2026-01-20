@@ -60,7 +60,7 @@ nav {
 
 
 
-/* hero */
+/* hero section */
 .hero {
   position: relative;
   width: 100%;
@@ -237,7 +237,7 @@ nav {
 
 
 
-/* main  */
+/* main  section */
 .about-podcast {
   color: #ffffff;
   max-width: 1200px;
@@ -269,7 +269,7 @@ nav {
 
 
 
-/* grid-container  */
+/* grid-container  section */
 .grid-container{
     display: grid;
     margin: 0 auto;
@@ -744,9 +744,6 @@ width: 100%;
 
 
 
-
-
-
   
   .three-vedio {
     flex-direction: column; 
@@ -825,7 +822,7 @@ position: absolute;
     background-color: #6f1b80;
 }
 
-/* footer section */
+/* footer */
 
 .child-div{
   transform: translate(-40%, -100%);
@@ -843,6 +840,8 @@ position: absolute;
   }
   .footer-bg>img{
     height: 250px;
+    width:auto;
+    max-width: 576px;
   } 
   
  
@@ -902,11 +901,9 @@ position: absolute;
 
 .banner-img,
 .circle-img,
-
-
 .mic-img {
   grid-area: 1/1;
-  border: 2px solid white;
+  /* border:none; */
    height: 47%; 
    transition: transform 0.9s ease-in-out; 
   cursor: pointer;
